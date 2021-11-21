@@ -1,0 +1,87 @@
+#socials {
+  width: 100%;
+  height: 30%;
+  /*top: 180%;*/
+  bottom: -120%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+
+#soc_1 {
+  top: 50%;
+  left: 20%;
+  transform: translate(0, -50%);
+  width: 10%;
+  height: 60%;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  border-radius: 40px;
+  outline: none;
+  border: 0px solid #000;
+  position: absolute;
+  transition-duration: 0.3s;
+}
+#soc_1_img {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition-duration: 0.3s;
+}
+#soc_2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 60%;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  border-radius: 40px;
+  outline: none;
+  border: 0px solid #000;
+  position: absolute;
+  transition-duration: 0.3s;
+}
+#soc_2_img {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition-duration: 0.3s;
+}
+#soc_3 {
+  top: 50%;
+  right: 20%;
+  transform: translate(0, -50%);
+  width: 10%;
+  height: 60%;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  border-radius: 40px;
+  outline: none;
+  border: 0px solid #000;
+  position: absolute;
+  transition-duration: 0.3s;
+}
+#soc_3_img {
+  width: 120px;
+  height: 120px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition-duration: 0.3s;
+}
+
+/* hover */
+#soc_1:hover {
+  cursor: pointer;
+}
+#soc_2:hover {
+  cursor: pointer;
+}
+#soc_3:hover {
+  cursor: pointer;
+}
